@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsetup_thread.a CMakeFiles/setup_thread.dir/setup_new_thread.cpp.o
+/usr/bin/ranlib libsetup_thread.a

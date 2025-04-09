@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yenwei/lazypoline/asm_syscall_hook.asm
+gsreldata.h
+/home/yenwei/lazypoline/gsreldata.h
+linux/unistd.h
+-
+
+/home/yenwei/lazypoline/config.h
+
+/home/yenwei/lazypoline/gsreldata.h
+config.h
+/home/yenwei/lazypoline/config.h
+
+/home/yenwei/lazypoline/restore_selector_trampoline.asm
+gsreldata.h
+/home/yenwei/lazypoline/gsreldata.h
+

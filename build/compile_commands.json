@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/yenwei/lazypoline/build",
+  "command": "clang++  -I/home/yenwei/lazypoline/. -std=gnu++20 -fPIC -Wall -Wextra -ggdb -fPIC -fno-exceptions -march=native -O3 -ffreestanding -nostdlib -nodefaultlibs -mno-sse -mno-avx -mno-mmx -msoft-float -o CMakeFiles/setup_thread.dir/setup_new_thread.cpp.o -c /home/yenwei/lazypoline/setup_new_thread.cpp",
+  "file": "/home/yenwei/lazypoline/setup_new_thread.cpp",
+  "output": "CMakeFiles/setup_thread.dir/setup_new_thread.cpp.o"
+},
+{
+  "directory": "/home/yenwei/lazypoline/build",
+  "command": "clang++ -Dlazypoline_EXPORTS -I/home/yenwei/lazypoline/. -std=gnu++20 -fPIC -Wall -Wextra -ggdb -fPIC -fno-exceptions -march=native -O3 -flto -o CMakeFiles/lazypoline.dir/sud.cpp.o -c /home/yenwei/lazypoline/sud.cpp",
+  "file": "/home/yenwei/lazypoline/sud.cpp",
+  "output": "CMakeFiles/lazypoline.dir/sud.cpp.o"
+},
+{
+  "directory": "/home/yenwei/lazypoline/build",
+  "command": "clang++ -Dlazypoline_EXPORTS -I/home/yenwei/lazypoline/. -std=gnu++20 -fPIC -Wall -Wextra -ggdb -fPIC -fno-exceptions -march=native -O3 -flto -o CMakeFiles/lazypoline.dir/zpoline.cpp.o -c /home/yenwei/lazypoline/zpoline.cpp",
+  "file": "/home/yenwei/lazypoline/zpoline.cpp",
+  "output": "CMakeFiles/lazypoline.dir/zpoline.cpp.o"
+},
+{
+  "directory": "/home/yenwei/lazypoline/build",
+  "command": "clang -Dlazypoline_EXPORTS -I/home/yenwei/lazypoline/. -fPIC -Wall -Wextra -ggdb -fPIC -fno-exceptions -march=native -O3 -flto -x assembler-with-cpp -o CMakeFiles/lazypoline.dir/asm_syscall_hook.asm.o -c /home/yenwei/lazypoline/asm_syscall_hook.asm",
+  "file": "/home/yenwei/lazypoline/asm_syscall_hook.asm",
+  "output": "CMakeFiles/lazypoline.dir/asm_syscall_hook.asm.o"
+},
+{
+  "directory": "/home/yenwei/lazypoline/build",
+  "command": "clang++ -Dlazypoline_EXPORTS -I/home/yenwei/lazypoline/. -std=gnu++20 -fPIC -Wall -Wextra -ggdb -fPIC -fno-exceptions -march=native -O3 -flto -o CMakeFiles/lazypoline.dir/lazypoline.cpp.o -c /home/yenwei/lazypoline/lazypoline.cpp",
+  "file": "/home/yenwei/lazypoline/lazypoline.cpp",
+  "output": "CMakeFiles/lazypoline.dir/lazypoline.cpp.o"
+},
+{
+  "directory": "/home/yenwei/lazypoline/build",
+  "command": "clang -Dlazypoline_EXPORTS -I/home/yenwei/lazypoline/. -std=gnu11 -fPIC -Wall -Wextra -ggdb -fPIC -fno-exceptions -march=native -O3 -flto -o CMakeFiles/lazypoline.dir/syscall_names.c.o -c /home/yenwei/lazypoline/syscall_names.c",
+  "file": "/home/yenwei/lazypoline/syscall_names.c",
+  "output": "CMakeFiles/lazypoline.dir/syscall_names.c.o"
+},
+{
+  "directory": "/home/yenwei/lazypoline/build",
+  "command": "clang++ -Dlazypoline_EXPORTS -I/home/yenwei/lazypoline/. -std=gnu++20 -fPIC -Wall -Wextra -ggdb -fPIC -fno-exceptions -march=native -O3 -flto -o CMakeFiles/lazypoline.dir/vIrTuAlIzE_sIgNaLs.cpp.o -c /home/yenwei/lazypoline/vIrTuAlIzE_sIgNaLs.cpp",
+  "file": "/home/yenwei/lazypoline/vIrTuAlIzE_sIgNaLs.cpp",
+  "output": "CMakeFiles/lazypoline.dir/vIrTuAlIzE_sIgNaLs.cpp.o"
+},
+{
+  "directory": "/home/yenwei/lazypoline/build",
+  "command": "clang -Dlazypoline_EXPORTS -I/home/yenwei/lazypoline/. -fPIC -Wall -Wextra -ggdb -fPIC -fno-exceptions -march=native -O3 -flto -x assembler-with-cpp -o CMakeFiles/lazypoline.dir/restore_selector_trampoline.asm.o -c /home/yenwei/lazypoline/restore_selector_trampoline.asm",
+  "file": "/home/yenwei/lazypoline/restore_selector_trampoline.asm",
+  "output": "CMakeFiles/lazypoline.dir/restore_selector_trampoline.asm.o"
+},
+{
+  "directory": "/home/yenwei/lazypoline/build",
+  "command": "clang++ -Dbootstrap_EXPORTS  -std=gnu++20 -fPIC -Wall -Wextra -ggdb -fPIC -fno-exceptions -march=native -O3 -flto -o CMakeFiles/bootstrap.dir/bootstrap_runtime.cpp.o -c /home/yenwei/lazypoline/bootstrap_runtime.cpp",
+  "file": "/home/yenwei/lazypoline/bootstrap_runtime.cpp",
+  "output": "CMakeFiles/bootstrap.dir/bootstrap_runtime.cpp.o"
+},
+{
+  "directory": "/home/yenwei/lazypoline/build",
+  "command": "clang++   -std=gnu++20 -fPIE -Wall -Wextra -ggdb -fPIC -fno-exceptions -march=native -O3 -flto -o CMakeFiles/main.dir/main.cpp.o -c /home/yenwei/lazypoline/main.cpp",
+  "file": "/home/yenwei/lazypoline/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.o"
+}
+]

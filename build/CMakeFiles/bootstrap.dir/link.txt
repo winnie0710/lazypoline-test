@@ -1,0 +1,1 @@
+clang++ -fPIC -O3 -flto -shared -Wl,-soname,libbootstrap.so -o libbootstrap.so CMakeFiles/bootstrap.dir/bootstrap_runtime.cpp.o  -ldl 
