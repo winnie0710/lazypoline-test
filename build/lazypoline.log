@@ -1,12 +1,17 @@
-Initializing lazypoline!
-[31m[3463] syscall(openat [257], 0xffffff9c, 0x55e4121fb004, 0x41, 0x1a4, 0x0, 0x7f93cb967380)[m
-[31m[3463] syscall(write [1], 0x3, 0x55e4121fb017, 0x12, 0x1a4, 0x0, 0x7f93cb967380)[m
-[31m[3463] syscall(lseek [8], 0x3, 0x0, 0x0, 0x1a4, 0x0, 0x7f93cb967380)[m
-[31m[3463] syscall(read [0], 0x3, 0x7ffe9606cf00, 0x13, 0x1a4, 0x0, 0x7f93cb967380)[m
-[31m[3463] syscall(dup [32], 0x2, 0x7ffe9606cf00, 0xffffffffffffff88, 0x1a4, 0x0, 0x7f93cb967380)[m
-[31m[3463] syscall(fcntl [72], 0x4, 0x3, 0xffffffffffffff88, 0x1a4, 0x0, 0x7f93cb967380)[m
-[31m[3463] syscall(close [3], 0x4, 0x3, 0x0, 0x1a4, 0x0, 0x7f93cb967380)[m
-[31m[3463] syscall(write [1], 0x2, 0x7ffe9606c440, 0x1a, 0xffffffff, 0x73, 0x0)[m
-read: Bad file descriptor
-[31m[3463] syscall(close [3], 0x3, 0x7ffe9606c440, 0x0, 0xffffffff, 0x1a, 0x0)[m
-[31m[3463] syscall(exit_group [231], 0x1, 0xffffffffffffff88, 0xe7, 0x7f93cb4d5860, 0x7ffe9606ce60, 0x0)[m
+--- Test 1: Write small amount to valid fd ---
+write() successful, bytes written = 10
+
+--- Test 2: Write entire message to valid fd ---
+write() successful, bytes written = 22
+
+--- Test 3: Write with invalid fd (-1) ---
+write() failed as expected, errno = 9: Bad file descriptor
+
+--- Test 4: Write with invalid fd (unopened) ---
+write() failed as expected, errno = 9: Bad file descriptor
+
+--- Test 5: Write with NULL buffer ---
+write() failed, errno = 14: Bad address
+
+--- Test 6: Write with negative count ---
+write() failed as expected, errno = 14: Bad address
